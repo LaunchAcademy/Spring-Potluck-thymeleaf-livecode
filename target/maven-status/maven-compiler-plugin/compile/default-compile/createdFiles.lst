@@ -1,0 +1,4 @@
+com/launchacademy/springpotluck/DemoApplication.class
+com/launchacademy/springpotluck/models/Dish.class
+com/launchacademy/springpotluck/controllers/DishesController.class
+com/launchacademy/springpotluck/services/DishService.class

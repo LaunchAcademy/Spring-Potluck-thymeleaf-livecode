@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Dishes Index</title>
+</head>
+<body>
+  <h1>Our Potluck Dishes</h1>
+  <div th:each="dish : ${dishes}">
+    <div th:object="${dish}">
+      <ul>
+        <li th:text="*{name}"></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
